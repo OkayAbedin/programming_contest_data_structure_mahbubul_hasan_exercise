@@ -20,9 +20,8 @@ void quadrant(int a, int b)
 void solve()
 {
 	int a, b, c;
-	cin >> a >> b >> c;
-	cout << max2num(a,b) << endl;
-	cout << max3num(a,b,c) << endl;
+	cin >> a >> b;
+	quadrant(a,b);
 }
 int main()
 {
